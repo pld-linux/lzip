@@ -1,0 +1,14 @@
+--- lzip-1.1/doc/lzip.texinfo.orig	2008-11-17 16:49:08.000000000 +0100
++++ lzip-1.1/doc/lzip.texinfo	2008-11-19 17:16:42.438464457 +0100
+@@ -8,9 +8,9 @@
+ @set UPDATED 17 November 2008
+ @set VERSION 1.1
+ 
+-@dircategory Data Compression
++@dircategory File utilities:
+ @direntry
+-* Lzip: (lzip).                 A LZMA file compressor.
++* Lzip: (lzip).				A LZMA file compressor
+ @end direntry
+ 
+ 
