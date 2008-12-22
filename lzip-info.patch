@@ -1,14 +1,14 @@
---- lzip-1.1/doc/lzip.texinfo.orig	2008-11-17 16:49:08.000000000 +0100
-+++ lzip-1.1/doc/lzip.texinfo	2008-11-19 17:16:42.438464457 +0100
+--- lzip-1.3/doc/lzip.texinfo~	2008-12-22 14:15:21.000000000 +0100
++++ lzip-1.3/doc/lzip.texinfo	2008-12-22 14:17:19.000000000 +0100
 @@ -8,9 +8,9 @@
- @set UPDATED 17 November 2008
- @set VERSION 1.1
+ @set UPDATED 21 December 2008
+ @set VERSION 1.3
  
 -@dircategory Data Compression
 +@dircategory File utilities:
  @direntry
--* Lzip: (lzip).                 A LZMA file compressor.
-+* Lzip: (lzip).				A LZMA file compressor
+-* Lzip: (lzip).                 A data compressor based on the LZMA algorithm.
++* Lzip: (lzip).				A data compressor based on the LZMA algorithm.
  @end direntry
  
  
