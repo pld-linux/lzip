@@ -8,7 +8,7 @@
 +@dircategory File utilities:
  @direntry
 -* Lzip: (lzip).                 A data compressor based on the LZMA algorithm.
-+* Lzip: (lzip).				A data compressor based on the LZMA algorithm.
++* Lzip: (lzip).				A data compressor based on the LZMA algorithm
  @end direntry
  
  
