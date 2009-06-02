@@ -3,7 +3,7 @@ Summary:	LZMA file compressor
 Summary(pl.UTF-8):	Kompresor plików oparty na algorytmie LZMA
 Name:		lzip
 Version:	1.6
-Release:	1
+Release:	0.%{_pre}.1
 License:	GPL v3+
 Group:		Applications/Archiving
 Source0:	http://download.savannah.gnu.org/releases/lzip/%{name}-%{version}-%{_pre}.tar.gz
