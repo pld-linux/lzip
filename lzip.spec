@@ -1,12 +1,15 @@
+#
+# TODO: - check what unpackaged files do 
+#
 Summary:	LZMA file compressor
 Summary(pl.UTF-8):	Kompresor plików oparty na algorytmie LZMA
 Name:		lzip
-Version:	1.5
+Version:	1.6
 Release:	1
 License:	GPL v3+
 Group:		Applications/Archiving
 Source0:	http://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.gz
-# Source0-md5:	5c4a933d2f5d939f257b56be403e5659
+# Source0-md5:	7b219383153541897c31fc69138a71b3
 Patch0:		%{name}-info.patch
 URL:		http://savannah.nongnu.org/projects/lzip/
 BuildRequires:	libstdc++-devel
