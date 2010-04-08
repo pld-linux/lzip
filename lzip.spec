@@ -1,12 +1,12 @@
 Summary:	LZMA file compressor
 Summary(pl.UTF-8):	Kompresor plików oparty na algorytmie LZMA
 Name:		lzip
-Version:	1.9
+Version:	1.10
 Release:	1
 License:	GPL v3+
 Group:		Applications/Archiving
 Source0:	http://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.gz
-# Source0-md5:	9e1d7f4db5b953e9f75b8500ebe0d4c0
+# Source0-md5:	84879f20450a69a94e125a67f4724d12
 Patch0:		%{name}-info.patch
 URL:		http://savannah.nongnu.org/projects/lzip/
 BuildRequires:	libstdc++-devel
@@ -28,10 +28,10 @@ lzip to bezstratny kompresor plików oparty na algorytmie LZMA
 (Lempel-Ziv-Markov chain-Algorithm) opracowanym przez Igora Pawłowa.
 Wysoki stopień kompresji LZMA wywodzi się z połączenia dwóch
 podstawowych, dobrze sprawdzonych idei kompresji: przesuwnych
-słowników (LZ77/78) i modeli Markowa (używanych przez każdy
-algorytm kompresji wykorzystujący w ostatnim stadium kodowanie
-zakresów lub podobne kodowanie entropii rzędu 0) z podziałem
-kontekstów w zależności od wykorzystania bitów.
+słowników (LZ77/78) i modeli Markowa (używanych przez każdy algorytm
+kompresji wykorzystujący w ostatnim stadium kodowanie zakresów lub
+podobne kodowanie entropii rzędu 0) z podziałem kontekstów w
+zależności od wykorzystania bitów.
 
 %prep
 %setup -q
