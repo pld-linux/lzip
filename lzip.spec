@@ -1,4 +1,4 @@
-%define		_rc	rc2
+%define		_rc	rc3
 Summary:	LZMA file compressor
 Summary(pl.UTF-8):	Kompresor plików oparty na algorytmie LZMA
 Name:		lzip
@@ -7,7 +7,7 @@ Release:	0.%{_rc}.1
 License:	GPL v3+
 Group:		Applications/Archiving
 Source0:	http://download.savannah.gnu.org/releases/lzip/%{name}-%{version}-%{_rc}.tar.gz
-# Source0-md5:	b949dd2692c52e0819fad895d19b18c1
+# Source0-md5:	90d79a009eb05a69de848e97a917de37
 Patch0:		%{name}-info.patch
 URL:		http://savannah.nongnu.org/projects/lzip/
 BuildRequires:	libstdc++-devel
