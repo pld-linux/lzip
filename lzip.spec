@@ -1,12 +1,12 @@
 Summary:	LZMA file compressor
 Summary(pl.UTF-8):	Kompresor plików oparty na algorytmie LZMA
 Name:		lzip
-Version:	1.18
+Version:	1.19
 Release:	1
 License:	GPL v3+
 Group:		Applications/Archiving
 Source0:	http://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.gz
-# Source0-md5:	3838567460ce4a10143de4bccc64fe1c
+# Source0-md5:	4dd8790d7528440d034fc713a8680bd3
 Patch0:		%{name}-info.patch
 URL:		http://savannah.nongnu.org/projects/lzip/
 BuildRequires:	libstdc++-devel
