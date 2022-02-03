@@ -1,10 +1,10 @@
 --- lzip-1.15/doc/lzip.texi.orig	2013-11-24 18:54:25.488920451 +0100
 +++ lzip-1.15/doc/lzip.texi	2013-11-24 18:57:48.498911931 +0100
 @@ -9,9 +9,9 @@
- @set UPDATED 20 September 2013
- @set VERSION 1.15
+ @set UPDATED 24 January 2022
+ @set VERSION 1.23
  
--@dircategory Data Compression
+-@dircategory Compression
 +@dircategory File utilities:
  @direntry
 -* Lzip: (lzip).                 LZMA lossless data compressor
