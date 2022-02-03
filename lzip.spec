@@ -5,7 +5,7 @@ Version:	1.23
 Release:	1
 License:	GPL v3+
 Group:		Applications/Archiving
-Source0:	http://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.gz
+Source0:	https://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.gz
 # Source0-md5:	c47878da4af44ce7ab4115a75640a99d
 Patch0:		%{name}-info.patch
 URL:		http://savannah.nongnu.org/projects/lzip/
