@@ -1,8 +1,8 @@
---- lzip-1.15/doc/lzip.texi.orig	2013-11-24 18:54:25.488920451 +0100
-+++ lzip-1.15/doc/lzip.texi	2013-11-24 18:57:48.498911931 +0100
+--- lzip-1.24/doc/lzip.texi.orig	2024-01-30 16:56:43.354037753 +0100
++++ lzip-1.24/doc/lzip.texi	2024-01-30 16:57:48.807016497 +0100
 @@ -9,9 +9,9 @@
- @set UPDATED 24 January 2022
- @set VERSION 1.23
+ @set UPDATED 26 January 2024
+ @set VERSION 1.24
  
 -@dircategory Compression
 +@dircategory File utilities:
