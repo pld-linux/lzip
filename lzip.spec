@@ -1,12 +1,12 @@
 Summary:	LZMA file compressor
 Summary(pl.UTF-8):	Kompresor plików oparty na algorytmie LZMA
 Name:		lzip
-Version:	1.24
+Version:	1.24.1
 Release:	1
 License:	GPL v3+
 Group:		Applications/Archiving
 Source0:	https://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.gz
-# Source0-md5:	95763cd199be5c343a891ce6a9aae9c5
+# Source0-md5:	1a7720f5ed267d06112446ecb2a90b74
 Patch0:		%{name}-info.patch
 URL:		http://savannah.nongnu.org/projects/lzip/
 BuildRequires:	libstdc++-devel
