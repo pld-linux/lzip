@@ -2,7 +2,7 @@ Summary:	LZMA file compressor
 Summary(pl.UTF-8):	Kompresor plików oparty na algorytmie LZMA
 Name:		lzip
 Version:	1.25
-Release:	1
+Release:	2
 License:	GPL v3+
 Group:		Applications/Archiving
 Source0:	https://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.gz
@@ -38,7 +38,12 @@ zależności od wykorzystania bitów.
 %patch -P0 -p1
 
 %build
-%configure
+%configure \
+	CXX="%{__cxx}" \
+	CXXFLAGS="%{rpmcxxflags}" \
+	CPPFLAGS="%{rpmcppflags}" \
+	LDFLAGS="%{rpmldflags}"
+
 %{__make} all info
 
 %install
